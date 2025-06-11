@@ -1,10 +1,10 @@
 name: Blue-Green Deployment - .NET App to Azure
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
-    workflow_dispatch:
 
 jobs:
   build:
